@@ -8,7 +8,7 @@ import ProductDetails from './pages/ProductDetails'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/DK_Seeds_And_Nursery">
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/categories' element={<CategoriesPage />} />
